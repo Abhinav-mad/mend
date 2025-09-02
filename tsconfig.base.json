@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "node",  // ✅ safer for API + Next.js
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true, // ✅ avoids Windows/macOS casing bugs
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true, // ✅ smoother interop with default exports
+    "isolatedModules": true,              // ✅ Next.js requires this
+    "jsx": "preserve",                     // ✅ required for Next.js + RN
+    "types": ["node"]                      // ✅ API needs Node types
+  },
+  "include": ["apps/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

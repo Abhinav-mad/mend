@@ -1,0 +1,25 @@
+{
+  "name": "mend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:mobile": "pnpm --filter @mend/mobile start",
+    "dev:web": "pnpm --filter @mend/web dev",
+    "dev:api": "pnpm --filter @mend/api dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+
+  "resolutions": {
+  "react": "18.2.0",
+  "react-dom": "18.2.0",
+  "@types/react": "18.3.3",
+  "@types/react-dom": "18.3.0"
+}
+
+}
