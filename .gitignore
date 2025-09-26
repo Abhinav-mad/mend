@@ -1,1 +1,63 @@
-node_modules
+# ------------------------
+# Global
+# ------------------------
+node_modules/
+.DS_Store
+*.pem
+*.log
+*.tsbuildinfo
+
+# Environment files (never commit secrets)
+.env
+.env*.local
+
+# ------------------------
+# Monorepo (pnpm, yarn, npm)
+# ------------------------
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ------------------------
+# Web (Next.js / React)
+# ------------------------
+.next/
+out/
+build/
+coverage/
+.vercel
+next-env.d.ts
+
+# ------------------------
+# Mobile (Expo / React Native)
+# ------------------------
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# Android / iOS native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.gradle/
+.idea/
+android/
+ios/
+
+# ------------------------
+# Misc (editors, tools)
+# ------------------------
+.vscode/
