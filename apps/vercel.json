@@ -1,0 +1,6 @@
+{
+  "buildCommand": "corepack prepare pnpm@8.15.8 --activate && pnpm install --filter @mend/web... && pnpm --filter @mend/web build",
+  "installCommand": "corepack prepare pnpm@8.15.8 --activate && pnpm install --filter @mend/web...",
+  "outputDirectory": "apps/web/.next",
+  "framework": "nextjs"
+}
