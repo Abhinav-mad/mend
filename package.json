@@ -14,12 +14,11 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@8.15.8",
-
-  "resolutions": {
-
-},
- "engines": {
+  "resolutions": {},
+  "engines": {
     "node": "20.x"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.13.3"
   }
-
 }
