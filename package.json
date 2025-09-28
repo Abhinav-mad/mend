@@ -17,8 +17,5 @@
   "resolutions": {},
   "engines": {
     "node": "20.x"
-  },
-  "devDependencies": {
-    "@netlify/plugin-nextjs": "^5.13.3"
   }
 }
