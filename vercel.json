@@ -1,5 +1,5 @@
 {
-  "installCommand": "corepack prepare pnpm@8.15.8 --activate && pnpm install --filter @mend/web --frozen-lockfile",
+ "installCommand": "corepack prepare pnpm@8.15.8 --activate && pnpm install --filter @mend/web",
   "buildCommand": "pnpm --filter @mend/web build",
   "outputDirectory": "apps/web/.next",
   "framework": "nextjs"
