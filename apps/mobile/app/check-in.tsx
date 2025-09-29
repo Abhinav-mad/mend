@@ -58,7 +58,7 @@ export default function CheckInScreen() {
 
       <View style={{ flexDirection: "row", flexWrap: "wrap", marginTop: 12 }}>
         {MOODS.map((m) => (
-          <MoodChip key={m} label={m} selected={selectedMood === m} onPress={() => setSelectedMood(m)} />
+          <MoodChip  label={m} selected={selectedMood === m} onPress={() => setSelectedMood(m)} />
         ))}
       </View>
 
