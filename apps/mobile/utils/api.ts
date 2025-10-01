@@ -1,8 +1,10 @@
 import axios from "axios";
 import { getUserId } from "./userId";
 
+const API_URL = process.env.EXPO_PUBLIC_API_URL;
+
 export const api = axios.create({
-  baseURL: "http://192.168.29.223:4000/api", // 👈 replace with your backend API URL
+  baseURL: API_URL, // 👈 replace with your backend API URL
   headers: {
     "Content-Type": "application/json",
   },
